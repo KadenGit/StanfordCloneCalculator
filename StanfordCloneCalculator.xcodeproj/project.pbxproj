@@ -39,6 +39,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F53939F22B59198A0067DEB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5FC5ED02B590DDD00454FC5 /* AppDelegate.swift */,
+				F5FC5EDC2B590DDF00454FC5 /* Assets.xcassets */,
+				F5FC5EDE2B590DDF00454FC5 /* LaunchScreen.storyboard */,
+				F5FC5EE12B590DDF00454FC5 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		F5FC5EC42B590DDD00454FC5 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +69,10 @@
 		F5FC5ECF2B590DDD00454FC5 /* StanfordCloneCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				F5FC5ED02B590DDD00454FC5 /* AppDelegate.swift */,
+				F53939F22B59198A0067DEB7 /* Supporting Files */,
 				F5FC5ED22B590DDD00454FC5 /* SceneDelegate.swift */,
 				F5FC5ED42B590DDD00454FC5 /* ViewController.swift */,
 				F5FC5ED62B590DDD00454FC5 /* Main.storyboard */,
-				F5FC5EDC2B590DDF00454FC5 /* Assets.xcassets */,
-				F5FC5EDE2B590DDF00454FC5 /* LaunchScreen.storyboard */,
-				F5FC5EE12B590DDF00454FC5 /* Info.plist */,
 				F5FC5ED92B590DDD00454FC5 /* StanfordCloneCalculator.xcdatamodeld */,
 			);
 			path = StanfordCloneCalculator;
@@ -297,7 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = StanfordCloneCalculator/Info.plist;
+				INFOPLIST_FILE = "StanfordCloneCalculator/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -324,7 +332,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = StanfordCloneCalculator/Info.plist;
+				INFOPLIST_FILE = "StanfordCloneCalculator/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
